@@ -1,0 +1,95 @@
+/* NavBar.css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3); /* light blue gradient */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#LogoSection {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#LogoSection h2 {
+    font-size: 24px;
+    color: #3c3f58;
+    margin: 0;
+}
+
+#LinkSection ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+#LinkSection ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #4b527e;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+#LinkSection ul li a:hover {
+    background-color: #dbe7ff;
+    color: #2e3a59;
+}
+/* NavBar.css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3); /* light blue gradient */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#LogoSection {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#LogoSection h2 {
+    font-size: 24px;
+    background: linear-gradient(90deg, #667eea, #764ba2); /* soft violet-blue gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+#LinkSection ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+#LinkSection ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #f6d365, #fda085); /* peach gradient */
+    color: #3c3f58;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+#LinkSection ul li a:hover {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* soft blue hover */
+    color: #1f2c46;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,36 @@
+/* Home.css */
+
+.home {
+    min-height: 0rem;
+    padding: 60px 40px;
+    background: linear-gradient(to bottom right, #fdfbfb, #ebedee); /* soft grey-white gradient */
+    color: #3c3f58;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.home h1 {
+    font-size: 36px;
+    background: linear-gradient(to right, #667eea, #764ba2); /* violet-blue gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.home p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 700px;
+    color: #4b527e;
+}
+
+div:last-child {
+    font-size: 16px;
+    color: #888;
+    margin-top: 30px;
+    padding-left: 40px;
+}
